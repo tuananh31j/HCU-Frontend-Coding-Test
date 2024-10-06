@@ -18,18 +18,16 @@
 npm install
 ```
 
-2. Run the project.
+2. Run server.
+
+```bash
+# npm
+npm run server
+```
+
+3. Run the project.
 
 ```bash
 # npm
 npm run dev
-```
-
-or
-
-## Setup with Docker
-
-```sh
-# docker
-docker-compose up -d
 ```

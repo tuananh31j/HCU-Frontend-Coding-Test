@@ -37,7 +37,7 @@ const ListTasks: React.FC = () => {
                 columns={columns}
                 dataSource={data?.data}
                 onChange={onChange}
-                pagination={{ total: data?.data.length, current: 1, pageSize: 5 }}
+                pagination={{ total: data?.data.length, pageSize: 5 }}
             />
         </Space>
     );
